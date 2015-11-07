@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		8CB14957B3F576954B6E95F4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6514F38239AECE8B3ABF4B0D /* Pods.framework */; };
 		B6948B3F1BEE4A9900D1C5D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B3E1BEE4A9900D1C5D2 /* AppDelegate.swift */; };
-		B6948B411BEE4A9900D1C5D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B401BEE4A9900D1C5D2 /* ViewController.swift */; };
 		B6948B441BEE4A9900D1C5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6948B421BEE4A9900D1C5D2 /* Main.storyboard */; };
 		B6948B461BEE4A9900D1C5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6948B451BEE4A9900D1C5D2 /* Assets.xcassets */; };
 		B6948B491BEE4A9900D1C5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6948B471BEE4A9900D1C5D2 /* LaunchScreen.storyboard */; };
 		B6948B541BEE4A9900D1C5D2 /* StarWarsCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B531BEE4A9900D1C5D2 /* StarWarsCharactersTests.swift */; };
 		B6948B5F1BEE4A9900D1C5D2 /* StarWarsCharactersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B5E1BEE4A9900D1C5D2 /* StarWarsCharactersUITests.swift */; };
+		B6948B6D1BEE4F0500D1C5D2 /* RootPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B6C1BEE4F0500D1C5D2 /* RootPresentationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B6948B731BEE531500D1C5D2 /* SpeciesWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B721BEE531500D1C5D2 /* SpeciesWrapper.swift */; settings = {ASSET_TAGS = (); }; };
+		B6948B751BEE537800D1C5D2 /* StarWarsSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6948B741BEE537800D1C5D2 /* StarWarsSpecies.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		6514F38239AECE8B3ABF4B0D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6948B3B1BEE4A9900D1C5D2 /* StarWarsCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6948B3E1BEE4A9900D1C5D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6948B401BEE4A9900D1C5D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6948B431BEE4A9900D1C5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6948B451BEE4A9900D1C5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6948B481BEE4A9900D1C5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +51,9 @@
 		B6948B5A1BEE4A9900D1C5D2 /* StarWarsCharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsCharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6948B5E1BEE4A9900D1C5D2 /* StarWarsCharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharactersUITests.swift; sourceTree = "<group>"; };
 		B6948B601BEE4A9900D1C5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6948B6C1BEE4F0500D1C5D2 /* RootPresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresentationViewController.swift; sourceTree = "<group>"; };
+		B6948B721BEE531500D1C5D2 /* SpeciesWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesWrapper.swift; sourceTree = "<group>"; };
+		B6948B741BEE537800D1C5D2 /* StarWarsSpecies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsSpecies.swift; sourceTree = "<group>"; };
 		D206A64180A995A25B9D55FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,11 +117,14 @@
 		B6948B3D1BEE4A9900D1C5D2 /* StarWarsCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				B6948B701BEE4F6100D1C5D2 /* AppDelegate */,
 				B6948B3E1BEE4A9900D1C5D2 /* AppDelegate.swift */,
-				B6948B401BEE4A9900D1C5D2 /* ViewController.swift */,
+				B6948B6F1BEE4F4200D1C5D2 /* Storyboards */,
 				B6948B421BEE4A9900D1C5D2 /* Main.storyboard */,
-				B6948B451BEE4A9900D1C5D2 /* Assets.xcassets */,
 				B6948B471BEE4A9900D1C5D2 /* LaunchScreen.storyboard */,
+				B6948B6E1BEE4F1100D1C5D2 /* ViewControllers */,
+				B6948B711BEE4F8300D1C5D2 /* Models */,
+				B6948B451BEE4A9900D1C5D2 /* Assets.xcassets */,
 				B6948B4A1BEE4A9900D1C5D2 /* Info.plist */,
 			);
 			path = StarWarsCharacters;
@@ -139,6 +146,37 @@
 				B6948B601BEE4A9900D1C5D2 /* Info.plist */,
 			);
 			path = StarWarsCharactersUITests;
+			sourceTree = "<group>";
+		};
+		B6948B6E1BEE4F1100D1C5D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6948B6C1BEE4F0500D1C5D2 /* RootPresentationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6948B6F1BEE4F4200D1C5D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6948B701BEE4F6100D1C5D2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B6948B711BEE4F8300D1C5D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6948B721BEE531500D1C5D2 /* SpeciesWrapper.swift */,
+				B6948B741BEE537800D1C5D2 /* StarWarsSpecies.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		F0138C7C805306144461B92F /* Frameworks */ = {
@@ -330,8 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6948B411BEE4A9900D1C5D2 /* ViewController.swift in Sources */,
+				B6948B731BEE531500D1C5D2 /* SpeciesWrapper.swift in Sources */,
+				B6948B6D1BEE4F0500D1C5D2 /* RootPresentationViewController.swift in Sources */,
 				B6948B3F1BEE4A9900D1C5D2 /* AppDelegate.swift in Sources */,
+				B6948B751BEE537800D1C5D2 /* StarWarsSpecies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
